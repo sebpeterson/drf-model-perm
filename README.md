@@ -24,7 +24,7 @@ What am I doing wrong ?
 Summary of config
 
 settings.py
-
+```
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.SessionAuthentication',
@@ -34,9 +34,10 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.DjangoModelPermissions',
     ],
 }
+```
 
 views.py
-
+```
 class ToolViewSet(viewsets.ModelViewSet):
     """
     API endpoint that allows users to be viewed or edited.
@@ -45,3 +46,4 @@ class ToolViewSet(viewsets.ModelViewSet):
     
     queryset = Tool.objects.all()
     serializer_class = ToolSerializer
+```
