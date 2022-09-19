@@ -49,7 +49,7 @@ class ToolViewSet(viewsets.ModelViewSet):
 
 
 RESOLVED BY
-looking at https://stackoverflow.com/questions/46584653 django-rest-framework-use-djangomodelpermissions-on-listapiview
+looking at https://stackoverflow.com/questions/46584653/django-rest-framework-use-djangomodelpermissions-on-listapiview
 
 and 
 
